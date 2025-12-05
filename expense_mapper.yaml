@@ -1,0 +1,230 @@
+---
+medical:
+- hospital
+- clinic
+- pharmacy
+- medical
+- WOUND
+- care
+- MANIPAL
+- DALVKOT
+- SPANDAN
+- KANCHI KAMAKOTI
+- WOODLANDS MULTISPECIAL
+- FITTERFLY
+- KAPIVA
+- PULSE DIAGNOSTICS
+grocery:
+- star bazaar
+- metro cash and carry
+- big bazaar
+- reliance fresh
+- more
+- dmart
+- grocery
+- Geddit  # zepto
+- ZEPTO
+- INNOVATIVE RETAIL
+- One97
+- GROCER
+- FISH WORLD  # fish shop Hoodi
+- UPI-VIMLA  # rajasthani modi dukan
+- UPI-MUKESH SEERVE  # rajasthani modi dukan
+- PAYTMQR6DDRR2  # fruit shop near gate
+- UPI-MAHESH
+- UPI-JAMIL AHMED LASKAR  # shop near intellitots
+- nagibai   # cart papaya
+- swiggy
+- UPI-GEETHA
+- UPI-KEERTHIKUMAR
+- BIG BASKET
+- BB daily
+- AVENUE SUPERMARTS
+- BEEJAPURI DAIRY
+- NEW SHAW BHANDAR KOLKATA
+shopping:
+- amazon
+- flipkart
+- home depot
+- furniture
+- appliances
+- ADITYA BIRLA
+- IGST
+- IKEA
+- Beato
+- NOBROKER
+- Mehendi
+- KLM
+- SREELEATHERS
+- MANCHOW
+- V MART KOLKATTA
+- LOYAL CITY SUPER
+- ULTRABEEP OPS PRIVATE # Bike 2nd hand
+- AM MarketPlaces Gurgaon # limeroad
+- JP CREATION
+- PAYTM
+food:
+- YOUMEE
+- TEWARI BROTHERS
+- GRUBWIZ PRIVATE
+- ZENITH DRINKS
+- WOW MOMO
+- estaa sweets
+- zomato
+- restaurant
+- cafe
+- food
+- sweets
+- OAM INDUSTRIES
+- HOTELS
+- BARBEQUE
+- GOPIZZA
+- AAHARA
+- KFC
+- BIGBASKET
+- ANJAPPAR AUTHENTIC CHE MADURAI
+- Dreamfolks Services
+- BHAGAVATHI GRAND
+- A RAMIAH NADAR
+- FROZEN HOUSE
+- WINE
+- UPI-ASHOK K V   # dosa nasta KTPO
+- UPI-NEW UDUPI DELICACY # food sai dosa
+- BUNDL TECHNOLOGIES # swiggy
+- BEIJING BITES
+- TACO BELL
+- DOMINOS PIZZA
+- CHINESE WOK
+salary:
+- salary
+- payroll
+travel:
+- uber
+- ola
+- metro
+- bus
+- taxi
+- fuel
+- EASE MY TRIP NEW DELHI
+- UPI-RIPPLE WATTER  # munnar trip
+- UPI-ECOSHOP MEMBERS  # munnar trip
+- UPI-MEMBER SECRETARY  # munnar trip
+- UPI-SAJEESH  # munnar trip
+- UPI-MR  JITHIN  # munnar trip
+- UPI-GOVIND KUMAR # munnar trip
+- UPI-CHELESH  # munnar trip
+- UPI-TTKITCHEN-GPAY  # munnar trip
+- UPI-SUMESH # munnar trip kalari Khsetra
+- UPI-MR MANJUNATHA   # food at Panchmukhi
+- ANILA SERVICE STATION
+- travel
+- MAKEMYTRIP
+- AUTOPE PAYMENT SOLUTIO # IRCTC
+entertainment:
+- netflix
+- prime
+- movie
+- cinema
+education:
+- Euroschool
+- UDEMY
+utlities:
+- BILL JUNCTION
+- ACTCORP
+- RECHARGE
+- MAYUR
+- UPI-JYOTI
+- UPI-CNV
+- PETRO
+- CNV ENTERPRISES
+- FANCY
+- K H T
+- RAILWAY
+- IRCTC
+- TRAIN
+- TICKET
+- ACKO GENERAL
+- UPI-EBADUR RAHMAN LASKAR  # Iron cloth
+- UPI-INDIAN OIL PETROL
+- UPI-MANPRIT KAUR   # IT return
+- UPI-NAGESH
+- UPI-BIDANAGERE  # Donation at PANCHAMUKI temple with Abhijit
+- UPI-PANCHAMUKI # temple
+- UPI-MANGALAMMA
+- MUMMY
+- UPI-ANIL KUMAWAT
+- UPI-PARKPLUS
+- UPI-MYGATE
+- UPI-MS ATUNG WANGSU  ## TIP cleaner
+- UPI-MOHAMMED NEYAZUDDIN # Iron
+- UPI-MOHAMMED  MUDASIR # Bike Service
+- UPI-MOHAMMED  # FRUITS Shop
+- "330929174964" #  sujal unique code
+- "370106538691"
+- GULLU TIWARI  # pandit
+- chandramanicm03  # register bribe
+- livspace
+- RIDHI SIDHI HARDWARE # hardware shop
+- ALADDIN SHAWARMA
+- UPI-RASHMITHA # maid
+- UPI-ADHIKARI KRISHNAREDDY
+- UPI-Mohamed Ayub Khan # iron
+- UTILIT
+- ATOM TECHNOLOGIES
+- RELIANCE JIO INFOCOMM
+- ABHI AND NIYU
+cig:
+- UPI-KVANI
+- UPI-VANI
+- UPI-SHRADDHA  # shop in back gate
+- UPI-ANEESH
+- M-PAYTMQR6EP20J
+- UPI-GANGA KUMAR YADAV
+- UPI-M SRINATH
+- UPI-DILIP  KUMAR
+- UPI-RAJU
+- UPI-MEKALA
+- UPI-SUNIL KUMAR
+- UPI-KARTHIK
+- UPI-MR AJAY
+- UPI-AITHA
+- UPI-MANO RANJAN
+- UPI-ABHISHEK SINGH
+cc_payment:
+- UPI-CREDCLUB-CREDCLUB
+- CRED
+- UPI-CHEQ DIGITAL
+- CREDIT CARD
+- cheq1
+dividend:
+- DIV
+- ACH
+- CENTRAL DEPOSITORY
+investment:
+- NPST1
+- NPST2
+- ZERODHA
+- LENDEN
+- LIC INDIA
+Others:
+- UPI-AJAY KUMAR
+- Dreamplug Technologies
+- Refund
+- SERVICE CHARGES
+- IMPS INWARD
+- IMPS OUTWARD
+GIFT:
+- UPI-PANCHANAND
+- UPI-ROHAN
+- UPI-SHILPA GUPTA
+- "504521685029"
+- MITHU
+loans:
+- UPI-ABHISHEK KUMAR JAISW
+- XX20238   # home loan
+- XX64054   # home loan
+- emi1
+- emi2
+- Amortization
+- Processing Fee
+- PRINCIPAL
