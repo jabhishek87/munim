@@ -1,7 +1,14 @@
+"""ICICI credit card statement parser."""
+
+import logging
 from parser.base import BaseParser
+
+logger = logging.getLogger("munim")
 
 
 class CcIciciParser(BaseParser):
+    """Parser for ICICI credit card statements."""
+
     def __init__(self):
         self.bank: str = "Icici-CC"
         self.file_starts_with: str = "cc_icici_"
@@ -19,24 +26,31 @@ class CcIciciParser(BaseParser):
             bank=self.bank,
             file_starts_with=self.file_starts_with,
             tx_row_col_count=self.tx_row_col_count,
-            attrs_mapping=self.attrs_mapping
+            attrs_mapping=self.attrs_mapping,
         )
         # headers
-        # "Date","Sr.No.","Transaction Details","Reward Point Header","Intl.Amount","Amount(in Rs)","BillingAmountSign"
+        # "Date",
+        # "Sr.No.",
+        # "Transaction Details",
+        # "Reward Point Header",
+        # "Intl.Amount",
+        # "Amount(in Rs)",
+        # "BillingAmountSign"
 
     def normalize_data(self):
-        """Parse Axis bank statement CSV files."""
+        """Parse ICICI credit card statement CSV files."""
         for file in self.files:
-            print(f"Parsing {self.bank} transactions from {file}")
+            logger.info("Parsing %s transactions from %s", self.bank, file)
             csv_reader = self.read_csv(file)
             for row in csv_reader:
-                # if row[len(row)-1].strip() == '' or row[0] == self.header_indentifier:
-                if len(row) < self.tx_row_col_count or row[0].strip() == self.header_indentifier:
-                    # print(f"### Malformed row: {row}")
+                if (
+                    len(row) < self.tx_row_col_count
+                    or row[0].strip() == self.header_indentifier
+                ):
                     continue
-                # print(row)
-                # extra condition on Credit card statements dont add payments
-                dr_amount = float(row[self.attrs_mapping["dr_amount"]].strip().replace(",", "") or 0)
+                dr_amount = float(
+                    row[self.attrs_mapping["dr_amount"]].strip().replace(",", "") or 0
+                )
                 if dr_amount > 0:
                     self.transactions.append(self.parse(row))
             self.write_json(file)

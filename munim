@@ -1,29 +1,7 @@
 #!/usr/bin/env python3
 
-import json
-import glob
-from pathlib import Path
+"""Entry point for Munim CLI."""
+from cli import cli
 
-from parser.axis_parser import AxisParser
-from parser.sbi_parser import SbiParser
-from parser.hdfc_parser import HdfcParser
-from parser.icici_parser import IciciParser
-from parser.cc_icici_parser import CcIciciParser
-from parser.cc_hdfc_parser import CcHdfcParser
-
-
-def main():
-    all_parsers = [
-        AxisParser,
-        SbiParser,
-        HdfcParser,
-        IciciParser,
-        CcIciciParser,
-        CcHdfcParser,
-    ]
-    for parser in all_parsers:
-        parser().normalize_data()
-
-
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    cli()

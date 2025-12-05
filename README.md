@@ -33,6 +33,27 @@ pip install -r requirements.txt
 
 ## 🚀 Quick Usage
 
+### CLI Commands
+
+```bash
+# Parse statements for a specific bank
+munim parse hdfc --verbose
+
+# Parse statements for all supported banks
+munim parse_all --verbose
+
+# View help
+munim --help
+munim parse --help
+```
+
+### Options
+
+- `--verbose, -v`: Enable verbose output with stderr logging
+- `--log-file`: Specify custom log file path (default: munim.log)
+
+### Python API
+
 ```python
 from parser import HDFCParser
 
